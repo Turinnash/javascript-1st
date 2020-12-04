@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict'
+        
+function minKivalaszt (arr){
+    let min = arr [0];
+    for (let i = 1; i < arr.length; i +=1 ){
+        if (arr [i] < min) {
+            min = arr[i];
+        }
+    }
+    return min;
+}
+console.log(minKivalaszt([0, 65, -10, -765, 563]));
+
+
+    </script>
+    
+</body>
+</html>
